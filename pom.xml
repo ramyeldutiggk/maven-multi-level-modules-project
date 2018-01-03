@@ -98,14 +98,14 @@
                   <goal>prepare-agent</goal>
                 </goals>
               </execution>
-              <!--<execution>-->
-              <!--<id>ut-report</id>-->
-              <!--<phase>prepare-package</phase>-->
-              <!--<goals>-->
-              <!--<goal>report</goal>-->
-              <!--<goal>restore-instrumented-classes</goal>-->
-              <!--</goals>-->
-              <!--</execution>-->
+              <execution>
+              <id>ut-report</id>
+              <phase>prepare-package</phase>
+              <goals>
+              <goal>report</goal>
+              <goal>restore-instrumented-classes</goal>
+              </goals>
+              </execution>
             </executions>
           </plugin>
         </plugins>
